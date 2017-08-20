@@ -4,9 +4,18 @@
 	margin:0;
 	padding:0;
 	}
-a:link visited h{
-	
+a{
+	text-decoration:none;
+}
+a:link{
+	color:#FFF;
 	}
+a:active{
+	color:#FFF;
+}
+a:visited{
+	color:#FFF;
+}
 .top{
 	width:auto;
 	height:50px;
@@ -36,9 +45,10 @@ a:link visited h{
 	}
 .top_left li{
 	list-style:none;
+	text-align:center;
 	float:left;
-	margin:0 10px;
 	line-height:50px;
+	width:100px;
 	}
 .top_right{
 	width:400px;
@@ -48,14 +58,18 @@ a:link visited h{
 	}
 .top_right li{
 	list-style:none;
-	margin:0 10px;
 	float:right;
 	line-height:50px;
-	}
-.banner_box{
-	
+	width:80px;
+	text-align:center;
 	}
 .banner_box ul li img{
 	width:100%;
 	height:auto;
 	}
+.top_left ul li:hover{
+	background-color:#0072E3;
+}
+.top_right ul li:hover{
+	background-color:#0072E3;
+}
